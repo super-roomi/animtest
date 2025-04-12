@@ -62,6 +62,10 @@ export default function Welcome() {
                     <p className='text-xl text-white mt-3'>Smart and functional</p>
                 </div>
             </motion.div>
+
+            <motion.div variants={{ hidden: { y: -100 }, show: { y: 0 }, transition: { duration: 1 } }} initial='hidden' animate='show' className='flex flex-col h-16 border m-3 rounded-xl bg-black px-4 py-1'>
+                <h1 className='text-2xl lg:text-5xl text-white mt-2'>Copyleft 2025 &copy; Roomi_Labs :S</h1>
+            </motion.div>
         </>
 
     )
