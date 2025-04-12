@@ -5,3 +5,28 @@
 h1, h2, h3{
     font-family: 'Special Gothic', Courier, monospace;
 }
+
+.dropdown{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 4.5rem;
+    bottom: 4rem;
+    width: 425px;
+    height: fit-content;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    
+}
+
+.dropdown::before{
+    content: '';
+    position: absolute;
+    top: -2rem;
+    right: 2rem;
+    width:25px;
+    height: 25px;
+    transform: rotate(45deg);
+}
